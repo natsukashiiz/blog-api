@@ -1,12 +1,12 @@
 package com.vv2dev.restfulapi;
 
-import com.vv2dev.restfulapi.entity.Blog;
-import com.vv2dev.restfulapi.entity.Social;
-import com.vv2dev.restfulapi.entity.User;
-import com.vv2dev.restfulapi.exception.BaseException;
-import com.vv2dev.restfulapi.service.BlogService;
-import com.vv2dev.restfulapi.service.SocialService;
-import com.vv2dev.restfulapi.service.UserService;
+import com.vv2dev.blog.entity.Blog;
+import com.vv2dev.blog.entity.Social;
+import com.vv2dev.blog.entity.User;
+import com.vv2dev.blog.exception.BaseException;
+import com.vv2dev.blog.service.BlogService;
+import com.vv2dev.blog.service.SocialService;
+import com.vv2dev.blog.service.UserService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
